@@ -1,5 +1,5 @@
 ```
-## Last commit: 2024-09-25 16:46:10 UTC by moro
+## Last commit: 2024-09-27 09:37:31 UTC by admin
 version 14.1R4.8;
 system {
     host-name mx-rnd-br4;
@@ -55,7 +55,7 @@ interfaces {
     }
     ge-0/0/1 {
         description "## -B- | to mx-rnd-br2 ge-0/0/1";
-        mtu 1400;
+        mtu 2000;
         unit 0 {
             family inet {
                 address 10.12.61.5/31;
@@ -64,7 +64,7 @@ interfaces {
     }
     ge-0/0/2 {
         description "## -B- | to mx-rnd-br3 ge-0/0/1";
-        mtu 1400;
+        mtu 2000;
         unit 0 {
             family inet {
                 address 10.12.61.3/31;
