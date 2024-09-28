@@ -1,5 +1,5 @@
 ```
-## Last commit: 2024-09-25 16:44:19 UTC by moro
+## Last commit: 2024-09-27 13:28:11 UTC by admin
 version 14.1R4.8;
 system {
     host-name mx-msk-br4;
@@ -125,7 +125,7 @@ protocols {
                 metric 10;
             }
             interface ge-0/0/0.0 {
-                metric 100;
+                metric 1;
             }
             interface ge-0/0/2.0 {
                 metric 100;
