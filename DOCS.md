@@ -32,6 +32,6 @@
 
 [commit aa5507a](https://github.com/mxsleo/POEMA-Repo/commit/aa5507a51b07e20eaa5a1cb912b56b4c01e1909e)
 
-[commit 67f33bd]https://github.com/mxsleo/POEMA-Repo/commit/67f33bd106cede7cd793c3019d608b82f33081f6)
+[commit 67f33bd](https://github.com/mxsleo/POEMA-Repo/commit/67f33bd106cede7cd793c3019d608b82f33081f6)
 
 ![Карта стабильности](/res/broken.png)
