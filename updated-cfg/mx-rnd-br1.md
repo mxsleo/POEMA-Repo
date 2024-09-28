@@ -1,5 +1,5 @@
 ```
-## Last commit: 2024-09-25 16:45:20 UTC by moro
+## Last commit: 2024-09-27 14:00:41 UTC by admin
 version 14.1R4.8;
 system {
     host-name mx-rnd-br1;
@@ -182,6 +182,10 @@ policy-options {
                 next-hop self;
                 accept;
             }
+        }
+        term T-BGP {
+            from protocol bgp;
+            then accept;
         }
         then reject;
     }
