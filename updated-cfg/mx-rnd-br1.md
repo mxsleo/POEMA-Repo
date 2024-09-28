@@ -1,5 +1,5 @@
 ```
-## Last commit: 2024-09-27 14:00:41 UTC by admin
+## Last commit: 2024-09-27 14:58:19 UTC by admin
 version 14.1R4.8;
 system {
     host-name mx-rnd-br1;
@@ -146,7 +146,9 @@ protocols {
             }
             interface ge-0/0/1.0;
             interface ge-0/0/2.0;
-            interface ge-0/0/3.0;
+            interface ge-0/0/3.0 {
+                metric 100;
+            }
         }
     }
     lldp {
