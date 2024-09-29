@@ -1,8 +1,8 @@
 # Информация
 
-**Хакатон:** Autumn DDoS-Guard
+**Хакатон:** TODO
 
-**Кейс:** Missed Connection
+**Кейс:** TODO
 
 ## Команда
 
